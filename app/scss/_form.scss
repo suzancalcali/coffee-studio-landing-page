@@ -1,0 +1,49 @@
+.form {
+  background-color: $lightGrayishBlue;
+  padding: 100px 20px;
+  
+  &__image {
+    display: inline-block;
+    width: 40%;
+    img {
+      width: 100%;
+      height: 50%;
+      border-radius: 10px;
+    }
+  }
+
+  &__title {
+		font-size: 20px;
+		line-height: 1.2;
+		color: $brown;
+  }
+
+  &__input {
+    display: inline-block;
+    width: 50%;
+    padding: 0 50px;
+
+    input[type="text"]{
+      height: 56px;
+      margin: 20px 0;
+      border-radius: 0 5px 5px 0;
+      font-family: 'Questrial', sans-serif;
+      border: solid 1px #cbc9c9; 
+      box-shadow: 1px 2px 5px rgba(0,0,0,.09); 
+      background: #fff; 
+      width: 25rem;
+    }
+
+    #icon {
+      display: inline-block;
+      padding: 15px 15px;
+      box-shadow: 1px 2px 5px rgba(0,0,0,.09); 
+      background: $yellow;
+      color: #fff;
+      text-align: center;
+      }
+    .account-type {
+      margin: 20px 0;
+    }
+  }
+}

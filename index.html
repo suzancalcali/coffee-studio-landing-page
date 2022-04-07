@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon.png"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Questrial:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hirogino+Sans:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" 
+          integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" 
+          crossorigin="anonymous">
+    <link rel="stylesheet" href="/app/scss/style.css" />
+
+    <title>Coffee Studio | Suzan Calcali - Web and Mobile Development</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="overlay has-fade"></div>
+
+      <nav class="container container--pall flex flex-jc-sb flex-ai-c">
+        <a href="/" class="header__logo">
+          <img src="images/coffee-studio-logo.svg" alt="Coffee Studio" />
+        </a>
+
+        <a id="btnHamburger" href="#" class="header__toggle hide-for-desktop">
+          <span></span>
+          <span></span>
+          <span></span>
+        </a>
+
+        <div class="header__links hide-for-mobile">
+          <a href="#">Subscriptions</a>
+          <a href="#">Coffee Beans</a>
+          <a href="#">Tasty Gifts</a
+          ><a href="#">Blog</a>
+          <a href="#">Careers</a>
+        </div>
+
+        <a href="#" class="button header__cta hide-for-mobile"
+          >Subscribe</a
+        >
+      </nav>
+
+      <div class="header__menu has-fade">
+        <a href="">Subscriptions</a>
+        <a href="">Coffee Beans</a>
+        <a href="">Tasty Gifts</a>
+        <a href="">Blog</a>
+        <a href="">Careers</a>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="container">
+        <div class="hero__image"></div>
+
+        <div class="hero__text container--pall">
+          <h1>Better mornings, delivered fresh!</h1>
+          <p>
+            Subscribe to world's best coffee, delivered right at to your doorstep.
+          </p>
+          <a href="#" class="button hero__cta">Choose a Plan</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="feature">
+      <div class="feature__content container container--pall">
+        <div class="feature__intro">
+          <h2>Why Coffee Studio</h2>
+          <p>
+            Get 12oz bags of coffee delivered to your doorstep weekly, biweekly, or monthly. Stock your pantry with expertly curated artisan coffee.
+          </p>
+        </div>
+
+        <div class="feature__grid">
+          <div class="feature__item">
+            <div class="feature__icon">
+              <img src="/images/icon-compass.svg" />
+            </div>
+            <div class="feature__title">Let Us Be Your Guide</div>
+            <div class="feature__description">
+              Think of us as your personal coffee sommelier. We sip 300+ coffees from the nation’s top roasters monthly so you only get the very best.
+            </div>
+          </div>
+
+          <div class="feature__item">
+            <div class="feature__icon">
+              <img src="/images/icon-coffee.svg" />
+            </div>
+            <div class="feature__title">Better Coffee For Everyone</div>
+            <div class="feature__description">
+              Our mission is to bring better mornings to everyone. Enjoy the world’s best coffee for just $0.55 per cup. (Shipping is always free)
+            </div>
+          </div>
+
+          <div class="feature__item">
+            <div class="feature__icon">
+              <img src="/images/icon-beans.svg" />
+            </div>
+            <div class="feature__title">Farm-to-Cup Sustainability</div>
+            <div class="feature__description">
+              Every purchase you make supports our independent roaster partners, premium wages for farmers, and diversity in coffee.
+            </div>
+          </div>
+
+          <div class="feature__item">
+            <div class="feature__icon">
+              <img src="/images/icon-gift.svg" /></div>
+            <div class="feature__title">Enjoy The Perks</div>
+            <div class="feature__description">
+              Free shipping on subscription boxes, exclusive discounts, early access to new blends, and the occasional surprise gift.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="articles">
+      <div class="article__content container container--pall">
+        <h2>Curator's Corner</h2>
+
+        <div class="article__grid">
+          <a href="#" class="article__item">
+            <div
+              class="article__image"
+              style="background-image: url('/images/article-1.jpg')"
+            ></div>
+            <div class="article__text">
+              <div class="article__author">By Suzan Calcali</div>
+              <div class="article__title">
+                Discover Your Next Favorite
+              </div>
+              <div class="article__description">
+                Discover new roasters, enjoy small-batch micro-lots from across the globe, and transform your morning cup.
+              </div>
+            </div>
+          </a>
+
+          <a href="#" class="article__item">
+            <div
+              class="article__image"
+              style="background-image: url('/images/article-2.jpg')"
+            ></div>
+            <div class="article__text">
+              <div class="article__author">By Suzan Calcali</div>
+              <div class="article__title">
+                Coffee Tasting Subscription
+              </div>
+              <div class="article__description">
+                Flavor for days: Discover 4 expertly-curated coffees every month with our exclusive 1.8oz tasting format (brews 4-6 cups per coffee, 16-24 cups total).
+              </div>
+            </div>
+          </a>
+
+          <a href="#" class="article__item">
+            <div
+              class="article__image"
+              style="background-image: url('/images/article-3.jpg')"
+            ></div>
+            <div class="article__text">
+              <div class="article__author">By Suzan Calcali</div>
+              <div class="article__title">
+                Curator's Choice Subscription
+              </div>
+              <div class="article__description">
+                Full size bags of artisan coffees, each masterfully curated by our in-house coffee experts. Choose your delivery frequency of our 12oz bag (brews 24-36 cups).
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="form">
+      <div class="container">
+        <div class="form__image">
+          <img src="/images/form-menu.png" />
+        </div>
+        <div class="form__input">
+          <div class="form__title">
+            <h2>Subscribe to world's best coffee, delivered right at to your doorstep.</h2>
+          </div>
+            <form action="/">
+                <label id="icon" for="name"><i class="fas fa-envelope"></i></label>
+                <input type="text" name="name" id="name" placeholder="Email" required/>
+                <label id="icon" for="name"><i class="fas fa-user"></i></label>
+                <input type="text" name="name" id="name" placeholder="Name" required/>
+                <label id="icon" for="name"><i class="fas fa-unlock-alt"></i></label>
+                <input type="text" name="name" id="name" placeholder="Password" required/>
+              <div class="btn-block">
+                <button type="submit" href="/">Submit</button>
+              </div>
+            </form>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <a class="footer__logo" href="#">
+          <img src="/images/coffee-studio-logo-white.svg" />
+        </a>
+
+        <div class="footer__social">
+          <a href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" width="21" height="18">
+              <title>Twitter</title>
+              <path
+                fill="#FFF"
+                d="M20.667 2.797a8.192 8.192 0 01-2.357.646 4.11 4.11 0 001.804-2.27 8.22 8.22 0 01-2.606.996A4.096 4.096 0 0014.513.873c-2.649 0-4.595 2.472-3.997 5.038a11.648 11.648 0 01-8.457-4.287 4.109 4.109 0 001.27 5.478A4.086 4.086 0 011.47 6.59c-.045 1.901 1.317 3.68 3.29 4.075a4.113 4.113 0 01-1.853.07 4.106 4.106 0 003.834 2.85 8.25 8.25 0 01-6.075 1.7 11.616 11.616 0 006.29 1.843c7.618 0 11.922-6.434 11.662-12.205a8.354 8.354 0 002.048-2.124z"
+              />
+            </svg>
+          <a href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" width="21" height="20">
+              <title>Instagram</title>
+              <path
+                fill="#FFF"
+                d="M10.333 1.802c2.67 0 2.987.01 4.042.059 2.71.123 3.976 1.409 4.1 4.099.048 1.054.057 1.37.057 4.04 0 2.672-.01 2.988-.058 4.042-.124 2.687-1.386 3.975-4.099 4.099-1.055.048-1.37.058-4.042.058-2.67 0-2.986-.01-4.04-.058-2.717-.124-3.976-1.416-4.1-4.1-.048-1.054-.058-1.37-.058-4.041 0-2.67.01-2.986.058-4.04.124-2.69 1.387-3.977 4.1-4.1 1.054-.048 1.37-.058 4.04-.058zm0-1.802C7.618 0 7.278.012 6.211.06 2.579.227.56 2.242.394 5.877.345 6.944.334 7.284.334 10s.011 3.057.06 4.123c.166 3.632 2.181 5.65 5.816 5.817 1.068.048 1.408.06 4.123.06 2.716 0 3.057-.012 4.124-.06 3.628-.167 5.651-2.182 5.816-5.817.049-1.066.06-1.407.06-4.123s-.011-3.056-.06-4.122C20.11 2.249 18.093.228 14.458.06 13.39.01 13.049 0 10.333 0zm0 4.865a5.135 5.135 0 100 10.27 5.135 5.135 0 000-10.27zm0 8.468a3.333 3.333 0 110-6.666 3.333 3.333 0 010 6.666zm5.339-9.87a1.2 1.2 0 10-.001 2.4 1.2 1.2 0 000-2.4z"
+              />
+            </svg>
+          </a>
+        </div>
+
+        <div class="footer__links col1">
+          <a href="#">Subscriptions</a>
+          <a href="#">Coffee Beans</a>
+          <a href="#">Tasty Gifts</a>
+        </div>
+
+        <div class="footer__links col2">
+          <a href="#">Blog</a>
+          <a href="#">Careers</a>
+          <a href="#">Privacy Policy</a>
+        </div>
+
+        <div class="footer__cta">
+          <a href="#" class="button">Subscribe</a>
+        </div>
+
+        <div class="footer__copyright">
+          &copy; Suzan Calcali
+        </div>
+      </div>
+    </footer>
+
+    <script src="/app/js/script.js"></script>
+  </body>
+</html>
