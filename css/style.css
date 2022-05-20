@@ -418,7 +418,7 @@ button:hover::before,
 .header__links a {
   position: relative;
   font-size: 14px;
-  color: #9698A6;
+  color: black;
   -webkit-transition: color 300ms ease-in-out;
   transition: color 300ms ease-in-out;
 }
