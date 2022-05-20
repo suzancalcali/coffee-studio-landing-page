@@ -411,7 +411,7 @@ button:hover::before,
 .header__menu a {
   display: block;
   padding: 0.625rem;
-  color: #353337;
+  color: black;
   text-align: center;
 }
 
