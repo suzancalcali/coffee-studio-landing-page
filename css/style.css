@@ -466,7 +466,7 @@ button:hover::before,
 
 .hero__image {
   position: relative;
-  background-image: url("images/bg-mobile.svg");
+  background-image: url("./images/bg-mobile.svg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -498,7 +498,7 @@ button:hover::before,
     content: "";
     position: absolute;
     height: 100%;
-    background-image: url("images/bg-desktop.svg");
+    background-image: url("./images/bg-desktop.svg");
     background-repeat: no-repeat;
     background-position: center bottom;
     width: 150%;
@@ -512,7 +512,7 @@ button:hover::before,
   position: absolute;
   width: 150%;
   height: 100%;
-  background-image: url("images/coffee-studio-banner@2x.png");
+  background-image: url("./images/coffee-studio-banner@2x.png");
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center left;
